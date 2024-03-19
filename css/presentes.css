@@ -1,0 +1,46 @@
+.presentes{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 3;
+}
+
+.presentes::before{
+ content: "";
+ position: absolute;
+ background-image: url("../img/ondas.svg");
+ width: 100%;
+ background-repeat: no-repeat;
+ height: 100%;
+ top: 0;
+
+
+}
+
+.presentes p:nth-child(2){
+  padding-bottom: 30px;
+}
+
+.magalu
+{
+  padding-left: 10px;
+  color:  var(--cor-segundaria);
+  font-weight: 400;
+}
+
+
+#modalBtn .dicas li{  
+  padding-bottom: 10px;
+}
+
+
+#copy-message{
+  color: var(--cor-primaria) !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+  }
+  
+  .hidden {
+    display: none;
+  }
